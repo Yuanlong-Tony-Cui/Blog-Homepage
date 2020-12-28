@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.svg'; // './logo.svg'
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <div>
           <p>
-            巴颜
+            巴 颜
           </p>
           <p style={{font:"monospace", fontSize:"20px"}}>
             Young as the Morning, Old as the Sea

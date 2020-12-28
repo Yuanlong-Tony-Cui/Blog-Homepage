@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-image: url('./assets/mountains_and_seas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,10 +29,11 @@
 
 .List {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
+  width: 50%;
 }
 
 .App-link {
