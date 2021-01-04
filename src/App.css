@@ -9,35 +9,61 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
 .App-header {
-  /* background-color: #282c34; */
+  min-height: 100vh;
   background-image: url('./assets/mountains_and_seas.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .List {
+  height: 200px;
   display: flex;
-  flex-direction: row;
-  /* align-items: flex-start; */
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  width: 50%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #0077ff;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: auto;
+}
+
+.App-button:hover {
+  background-color: white;
+  color: #0077ff;
+}
+
+.Title {
+  font-size: 100%;
+  font-family: fantasy;
+}
+
+.Subtitle {
+  font-size: 50%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
 @keyframes App-logo-spin {

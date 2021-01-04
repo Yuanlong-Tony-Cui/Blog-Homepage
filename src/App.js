@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg'; // './logo.svg'
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -7,39 +7,29 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <p>
-            巴 颜
+          <p className="Title">
+            BAYAN
           </p>
-          <p style={{font:"monospace", fontSize:"20px"}}>
+          <p className="Subtitle">
             Young as the Morning, Old as the Sea
           </p>
         </div>
         <img src={logo} className="App-logo" alt="logo" style={{marginTop:"50px", marginBottom:"50px"}}/>
         <div className="List">
-          <a
-            className="App-link"
-            href="https://yuanlong-tony-cui.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+           <button className="App-button"
+           onClick={() => window.open('https://yuanlong-tony-cui.github.io/')}>
             Blog
-          </a>
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/yuanlong-tony-cui/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </button>
+          <span></span>
+          <button className="App-button"
+          onClick={() => window.open("https://www.linkedin.com/in/yuanlong-tony-cui/")}>
             LinkedIn
-          </a>
-          <a
-            className="App-link"
-            href="https://github.com/Yuanlong-Tony-Cui"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </button>
+          <span></span>
+          <button className="App-button"
+          onClick={() => window.open("https://github.com/Yuanlong-Tony-Cui")}>
             GitHub
-          </a>
+          </button>
         </div>
       </header>
     </div>
