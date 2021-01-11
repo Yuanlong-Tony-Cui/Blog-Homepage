@@ -14,7 +14,7 @@ function App() {
             Young as the Morning, Old as the Sea
           </p>
         </div>
-        <div style={{height:"25vmin", width:"25vmin", margin:"2.5vmin", display:"flex", alignItems:"center", justifyContent:"center"}}>
+        <div style={{height:"30vmin", width:"30vmin", margin:"2.5vmin", display:"flex", alignItems:"center", justifyContent:"center"}}>
           <img src={profile} className="App-profile" alt="Profile"/>
         </div>
         <div className="List" style={{marginTop:"20px", marginBottom:"45px"}}>
