@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import profile from './assets/profile.jpg';
 import './App.css';
 
 function App() {
@@ -8,14 +8,16 @@ function App() {
       <header className="App-header">
         <div>
           <p className="Title">
-            BAYAN
+            YUANLONG TONY CUI
           </p>
           <p className="Subtitle">
             Young as the Morning, Old as the Sea
           </p>
         </div>
-        <img src={logo} className="App-logo" alt="logo" style={{marginTop:"50px", marginBottom:"50px"}}/>
-        <div className="List">
+        <div style={{height:"25vmin", width:"25vmin", margin:"2.5vmin", display:"flex", alignItems:"center", justifyContent:"center"}}>
+          <img src={profile} className="App-profile" alt="Profile"/>
+        </div>
+        <div className="List" style={{marginTop:"20px", marginBottom:"45px"}}>
            <button className="App-button"
            onClick={() => window.open('https://yuanlong-tony-cui.github.io/')}>
             Blog
