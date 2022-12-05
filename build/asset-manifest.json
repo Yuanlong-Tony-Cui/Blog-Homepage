@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1262feb9.chunk.css",
-    "main.js": "/static/js/main.c730c60a.chunk.js",
-    "main.js.map": "/static/js/main.c730c60a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7324b46b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7324b46b.js.map",
-    "static/js/2.ce1417a7.chunk.js": "/static/js/2.ce1417a7.chunk.js",
-    "static/js/2.ce1417a7.chunk.js.map": "/static/js/2.ce1417a7.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.579d9c86f6294b039d95f464cff7c716.js": "/precache-manifest.579d9c86f6294b039d95f464cff7c716.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1262feb9.chunk.css.map": "/static/css/main.1262feb9.chunk.css.map",
-    "static/js/2.ce1417a7.chunk.js.LICENSE.txt": "/static/js/2.ce1417a7.chunk.js.LICENSE.txt",
-    "static/media/allan.jfif": "/static/media/allan.7b18ebb2.jfif",
-    "static/media/gen3-robot.webp": "/static/media/gen3-robot.fe199288.webp",
-    "static/media/mountains_and_seas.jpg": "/static/media/mountains_and_seas.07162885.jpg",
-    "static/media/ryan.jfif": "/static/media/ryan.ec78bca4.jfif",
-    "static/media/tony.jpg": "/static/media/tony.7fbc3449.jpg"
+    "main.css": "/Blog-Homepage/static/css/main.1262feb9.chunk.css",
+    "main.js": "/Blog-Homepage/static/js/main.2f6a2e08.chunk.js",
+    "main.js.map": "/Blog-Homepage/static/js/main.2f6a2e08.chunk.js.map",
+    "runtime-main.js": "/Blog-Homepage/static/js/runtime-main.9acad823.js",
+    "runtime-main.js.map": "/Blog-Homepage/static/js/runtime-main.9acad823.js.map",
+    "static/js/2.2c036b3d.chunk.js": "/Blog-Homepage/static/js/2.2c036b3d.chunk.js",
+    "static/js/2.2c036b3d.chunk.js.map": "/Blog-Homepage/static/js/2.2c036b3d.chunk.js.map",
+    "index.html": "/Blog-Homepage/index.html",
+    "precache-manifest.756be75aaf5a8821f1094039166dca9a.js": "/Blog-Homepage/precache-manifest.756be75aaf5a8821f1094039166dca9a.js",
+    "service-worker.js": "/Blog-Homepage/service-worker.js",
+    "static/css/main.1262feb9.chunk.css.map": "/Blog-Homepage/static/css/main.1262feb9.chunk.css.map",
+    "static/js/2.2c036b3d.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.2c036b3d.chunk.js.LICENSE.txt",
+    "static/media/allan.jfif": "/Blog-Homepage/static/media/allan.7b18ebb2.jfif",
+    "static/media/gen3-robot.webp": "/Blog-Homepage/static/media/gen3-robot.fe199288.webp",
+    "static/media/mountains_and_seas.jpg": "/Blog-Homepage/static/media/mountains_and_seas.07162885.jpg",
+    "static/media/ryan.jfif": "/Blog-Homepage/static/media/ryan.ec78bca4.jfif",
+    "static/media/tony.jpg": "/Blog-Homepage/static/media/tony.7fbc3449.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7324b46b.js",
-    "static/js/2.ce1417a7.chunk.js",
+    "static/js/runtime-main.9acad823.js",
+    "static/js/2.2c036b3d.chunk.js",
     "static/css/main.1262feb9.chunk.css",
-    "static/js/main.c730c60a.chunk.js"
+    "static/js/main.2f6a2e08.chunk.js"
   ]
 }
