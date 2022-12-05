@@ -14,21 +14,7 @@ function App() {
           <p className="Title">
             Robotic Feeder
           </p>
-          <p className="Subtitle"
-            onClick={() => {
-              // Test 1: JS objects in browser
-              console.log(window);
-              console.log(window.window);
-              console.log(window.document);
-              console.log(console);
-              // Test 2: JS Promise
-              let promiseA = new Promise((resolve, reject) => {
-                resolve('Promise Resolved');
-              });
-              console.log(promiseA);
-              // Test 3: DOM Events
-
-            }}>
+          <p className="Subtitle">
             Ready to help you eat at any moment.
           </p>
         </div>
