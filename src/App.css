@@ -39,7 +39,7 @@
   position: fixed;
   background-color: #66ccff;
   /* TODO: Change the opacity on scrolling */
-  opacity: 90%;
+  opacity: 100%;
 }
 
 .List {
