@@ -1,5 +1,6 @@
 {
-  "name": "https://yuanlong-tony-cui.github.io/Blog-Homepage/",
+  "homepage": "https://yuanlong-tony-cui.github.io/Blog-Homepage/",
+  "name": "react-deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
