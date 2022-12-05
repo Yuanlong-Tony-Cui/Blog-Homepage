@@ -3,8 +3,7 @@
 }
 
 .App-profile {
-  height: 20vmin;
-  width: 20vmin;
+  height: 75%;
   border-radius: 50%;
   animation-name: Profile-shrink;
   animation-duration: 1s;
@@ -18,14 +17,13 @@
 }
 
 .App-profile:hover {
-  height: 30vmin;
-  width: 30vmin;
+  height: 100%;
   border-radius: 0%;
   animation-name: Profile-expand;
   animation-duration: 0.5s;
 }
 
-.App-header {
+.App-container {
   background-color: #cceeff;
   display: flex;
   flex-direction: column;
@@ -38,6 +36,7 @@
   width: 100%;
   position: fixed;
   background-color: #66ccff;
+  opacity: 0.9;
 }
 
 .List {
@@ -80,40 +79,50 @@
   font-family: fantasy;
 }
 
-.Title:hover {
+/* .Title:hover {
   text-decoration: underline;
   animation-name: Title-hover-on;
   animation-duration: 0.5s;
-}
+} */
 
 .Subtitle {
-  font-size: 50%;
-  font-family: sans-serif;
+  font-size: 20px;
+  font-family: Georgia;
   letter-spacing: 1px;
+}
+
+.Heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.Paragraph {
+  font-size: 18px;
+  font-family: Georgia;
+  text-align: left;
 }
 
 @keyframes Profile-expand {
   from {
-    height: 20vmin;
-    width: 20vmin;
+    height: 75%;
     border-radius: 50%;
   }
   to {
-    height: 30vmin;
-    width: 30vmin;
+    height: 100%;
     border-radius: 0%;
   }
 }
 
 @keyframes Profile-shrink {
   from {
-    height: 30vmin;
-    width: 30vmin;
+    height: 100%;
     border-radius: 0%;
   }
   to {
-    height: 20vmin;
-    width: 20vmin;
+    height: 75%;
     border-radius: 50%;
   }
 }

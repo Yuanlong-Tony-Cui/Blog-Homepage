@@ -3,62 +3,70 @@ import profile_tony from './assets/tony.jpg';
 import profile_ryan from './assets/ryan.jfif';
 import profile_allan from './assets/allan.jfif';
 import photo_gen3 from './assets/gen3-robot.webp';
+import food from './assets/food.png';
 import pic from './assets/mountains_and_seas.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-container">
         <div className="Fixed-header">
           <p className="Title">
-            Robotic Feeder
+            TRON Robotic Feeder
           </p>
           <p className="Subtitle">
             Ready to help you eat at any moment.
           </p>
         </div>
-        <div style={{ height: "30vmin", width: "30vmin", margin: "2.5vmin", marginTop: "30vmin", display: "flex", alignItems: "center", justifyContent: "space-around" }}>
-          <img style={{height: "500px"}} src={photo_gen3} class-Name="App-photo" />
+        <div style={{ height: "600px", width: "100%", marginTop: "200px", display: "flex", alignItems: "end", justifyContent: "space-around" }}>
+          <div style={{width:"700px", display: "flex", alignItems: "end", justifyContent: "space-around"}}>
+            <img style={{height: "100px"}} src={food} />
+            <img style={{height: "500px"}} src={photo_gen3} />
+          </div>
+          <div style={{width:"400px", background: "white", padding: "50px", marginBottom: "30px"}}>
+            <p className="Heading">Introducing</p>
+            <p className="Heading">the TRON Robotic Feeder</p>
+            <br/>
+            <p className="Paragraph" style={{lineHeight: 1.5}}> The robotic feeder is a system designed to help people with disabilities to have meals more easily without moving their arms or upper body. </p>
+            <p className="Paragraph" style={{lineHeight: 1.5}}> This system primarily comprises a robotic arm with a built-in gripper and an RGBD camera. Knowing what food the user wants through linguistic inputs, the system will then search for the target food on the table using computer vision, use a fork to skewer it, locate and then deliver the food to the user’s mouth. </p>
+          </div>
         </div>
-        <div style={{ height: "3vmin", width: "30vmin", margin: "2.5vmin", marginTop: "15vmin"}}>
-          <p className="Subtitle" style={{fontWeight: "bold", fontSize: "80%", background: "#66ccff"}}>
-              Meet Our Team
+        <div style={{ height: "600px", width: "100%", background: "white"}}>
+          <p className="Title">
+          —— Meet Our Team ——
           </p>
-        </div>
-        <div style={{ height: "50vmin", width: "100%", margin: "2.5vmin", background: "white"}}>
-          <div style={{ height: "30vmin", width: "100%", display: "flex", alignItems: "center", justifyContent: "space-around"}}>
-            <div style={{height: "30vmin", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
+          <div style={{ height: "300px", width: "100%", display: "flex", alignItems: "center", justifyContent: "space-around"}}>
+            <div style={{height: "100%", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
               <img src={profile_tony} className="App-profile" alt="Profile" />
             </div>
-            <div style={{height: "30vmin", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
+            <div style={{height: "100%", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
               <img src={profile_ryan} className="App-profile" alt="Profile" />
             </div>
-            <div style={{height: "30vmin", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
+            <div style={{height: "100%", width: "30%", display: "flex", alignItems: "center", justifyContent: "center"}}>
               <img src={profile_allan} className="App-profile" alt="Profile" />
             </div>
           </div>
           <div style={{ height: "20vmin", width: "100%", display: "flex", alignItems: "center", justifyContent: "space-around"}}>
-            <div style={{width:"300px"}}>
-              <p className="Subtitle" style={{fontWeight: "bold", fontSize: "60%"}}>Tony Cui</p>
-              <p className="Subtitle"> Tony in his past internships has been exploring the web and robotics industries. </p>
+            <div style={{width:"350px"}}>
+              <p className="Heading">Tony Cui</p>
+              <p className="Paragraph"> Tony in his past internships has been primarily exploring web development (SaaS) and robotic control. </p>
             </div>
-            <div style={{width:"300px"}}>
-              <p className="Subtitle" style={{fontWeight: "bold", fontSize: "60%"}}>Ryan Zhou</p>
-              <p className="Subtitle"> Ryan is a team player that has expertise in camera-based robotics development and basic CV operations. </p>
+            <div style={{width:"350px"}}>
+              <p className="Heading">Ryan Zhou</p>
+              <p className="Paragraph"> Ryan is a team player that has expertise in camera-based robotics development and basic CV operations. </p>
             </div>
-            <div style={{width:"300px"}}>
-              <p className="Subtitle" style={{fontWeight: "bold", fontSize: "60%"}}>Allan Zhao</p>
-              <p className="Subtitle"> Allan has extensive exposure to robotics manipulation, task and motion planning, and computer vision. </p>
+            <div style={{width:"350px"}}>
+              <p className="Heading">Allan Zhao</p>
+              <p className="Paragraph"> Allan has extensive exposure to robotics manipulation, task and motion planning, and computer vision. </p>
             </div>
           </div>
         </div>
         <div style={{ width: "75vw" }}>
-          <p className="paragraph">The Robotic Feeder is a project built ...</p>
-          <p className="paragraph"> More description here </p>
-          <p>-</p>
-          <p>-</p>
-          <p>-</p>
+          <p className="Paragraph"> More description here </p>
+          <p className="Paragraph"> More description here </p>
+          <p className="Paragraph"> More description here </p>
+          <p className="Paragraph"> More description here </p>
         </div>
         {/* <div className="List" style={{ marginTop: "20px", marginBottom: "45px" }}>
           <button className="App-button"
@@ -79,7 +87,7 @@ function App() {
         <div className="PortfolioContainer">
           {/* <img src={pic} alt="PictureMissing" className="PortfolioItem"/> */}
         </div>
-      </header>
+      </div>
     </div>
   );
 }
