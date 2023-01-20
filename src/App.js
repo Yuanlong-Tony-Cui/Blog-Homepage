@@ -34,9 +34,6 @@ function App() {
             <p className="Paragraph" style={{lineHeight: 1.5}}> This system primarily comprises a robotic arm with a built-in gripper and an RGBD camera. Knowing what food the user wants through linguistic inputs, the system will then search for the target food on the table using computer vision, use a fork to skewer it, locate and then deliver the food to the user’s mouth. </p>
           </div>
         </div>
-        <div style={{width:"800px", background: "white", padding: "50px", margin: "30px"}}>
-          <BuildBlog/>
-        </div>
         <div style={{ height: "650px", width: "100%", background: "white"}}>
           <p className="Title">
           — Meet Our Team —
@@ -96,6 +93,11 @@ function App() {
             <p className="Paragraph" style={{lineHeight: 1.5}}> Initially, a user sends a natural language command to the system either by speaking or typing the name of desired food into the system.</p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> Next, the perception module scans the scene using a camera with depth information, detects every food item on the table,and stores this information for further use by the robot.</p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> Given the instruction from the user and exact location of food items, the manipulation module generates the robot actions and commands that control the robot to pick and feed food into the user’s mouth.</p>
+          </div>
+        </div>
+        <div style={{ width: "100%", marginTop: "50px", display: "flex", alignItems: "top", justifyContent: "start", background: "white"}}>
+          <div style={{width:"800px", padding: "50px"}}>
+            <BuildBlog/>
           </div>
         </div>
         {/* <div className="List" style={{ marginTop: "20px", marginBottom: "45px" }}>
