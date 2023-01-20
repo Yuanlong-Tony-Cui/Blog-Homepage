@@ -6,7 +6,7 @@ import photo_gen3 from './assets/gen3-robot.webp';
 import food from './assets/food.png';
 import tech_overview from './assets/technical-overview.png';
 import sys_setup from './assets/system-setup.png';
-import pic from './assets/mountains_and_seas.jpg';
+import BuildBlog from './build-blog-sec';
 import './App.css';
 
 function App() {
@@ -33,6 +33,9 @@ function App() {
             <p className="Paragraph" style={{lineHeight: 1.5}}> The robotic feeder is a system designed to help people with disabilities to have meals more easily without moving their arms or upper body. </p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> This system primarily comprises a robotic arm with a built-in gripper and an RGBD camera. Knowing what food the user wants through linguistic inputs, the system will then search for the target food on the table using computer vision, use a fork to skewer it, locate and then deliver the food to the user’s mouth. </p>
           </div>
+        </div>
+        <div style={{width:"800px", background: "white", padding: "50px", margin: "30px"}}>
+          <BuildBlog/>
         </div>
         <div style={{ height: "650px", width: "100%", background: "white"}}>
           <p className="Title">
