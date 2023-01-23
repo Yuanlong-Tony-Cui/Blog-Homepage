@@ -96,7 +96,7 @@ function App() {
           </div>
         </div>
         <div style={{ width: "100%", marginTop: "50px", display: "flex", alignItems: "top", justifyContent: "start", background: "white"}}>
-          <div style={{width:"800px", padding: "50px"}}>
+          <div style={{width:"1000px", padding: "50px"}}>
             <BuildBlog/>
           </div>
         </div>

@@ -13,10 +13,10 @@ function BuildBlog() {
                 Week 0
             </p>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "10%"}}> 
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Jan 19th]
                 </p>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "87.5%"}}> 
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     The team had a meeting with Prof. Behrad Khamesee and Prof. Andrew Kennings.&nbsp;
                     The team presented the project plan to the professors,&nbsp;
                     updated the professors on the progress,&nbsp;
@@ -24,10 +24,10 @@ function BuildBlog() {
                 </p>
             </div>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "10%"}}> 
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Jan 20th]
                 </p>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "87.5%"}}> 
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     Tony worked on setting up the build blog section on top of the existing project website.
                 </p>
             </div>
