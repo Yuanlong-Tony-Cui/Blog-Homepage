@@ -1,5 +1,5 @@
 import React from 'react';
-import profile_tony from './assets/tony.jpg';
+import profile_tony from './assets/tony.jfif';
 import profile_ryan from './assets/ryan.jfif';
 import profile_allan from './assets/allan.jfif';
 import photo_gen3 from './assets/gen3-robot.webp';
@@ -67,6 +67,8 @@ function App() {
             </div>
           </div>
         </div>
+        {/* ISSUE: The blocks of text description overflow on low-res screens. */}
+        {/* TODO: Turn down the screen resolution and ... */}
         <div style={{ height: "800px", width: "100%", marginTop: "50px", display: "flex", alignItems: "center", justifyContent: "space-around", background: "white"}}>
           <div style={{width:"400px", background: "white", padding: "50px", marginBottom: "30px"}}>
             <p className="Heading">System Setup</p>
