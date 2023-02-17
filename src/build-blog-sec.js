@@ -13,9 +13,9 @@ function BuildBlog() {
                 Week 0
             </p>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
+                {/* <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Jan 19]
-                </p>
+                </p> */}
                 <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     The team had a meeting with Prof. Behrad Khamesee and Prof. Andrew Kennings.&nbsp;
                     The team presented the project plan to the professors,&nbsp;
@@ -24,9 +24,9 @@ function BuildBlog() {
                 </p>
             </div>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
+                {/* <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Jan 20]
-                </p>
+                </p> */}
                 <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     Tony worked on setting up the build blog section on top of the existing project website.
                 </p>
@@ -37,9 +37,9 @@ function BuildBlog() {
                 Week 1
             </p>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
+                {/* <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Jan 26]
-                </p>
+                </p> */}
                 <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     The new FYDP web page was launched and the link to it was submitted for review.
                 </p>
@@ -50,22 +50,48 @@ function BuildBlog() {
                 Week 2
             </p>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
+                {/* <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Feb 1]
-                </p>
+                </p> */}
                 <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     The team had a two-hour meetup in RoboHub, set up the development environment on individual machines,&nbsp;
                     and tested the control of the Gen 3 arm using Python.
                 </p>
             </div>
             <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
-                <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
+                {/* <p className="Paragraph" style={{lineHeight: 1.5, width: "100px"}}> 
                     [Feb 2]
-                </p>
+                </p> */}
                 <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
                     The team submitted the symposium request form and the form for the Capstone Design brochure.
                 </p>
             </div>
+            <br/><br/>
+
+            <p className="Paragraph" style={{lineHeight: 1.5, fontWeight: "bold"}}>
+                Week 3
+            </p>
+            <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
+                    Each team member worked on their assigned parts of the project. Allan worked on the integration of the tactile sensor and the end effector, Ryan worked on getting the webcam to work, and Tony worked on the pick-and-place operations.
+                </p>
+            </div>
+            <br/><br/>
+
+            <p className="Paragraph" style={{lineHeight: 1.5, fontWeight: "bold"}}>
+                Week 4
+            </p>
+            <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
+                    The team tested what was done at that point on the Gen 3 arm in RoboHub. A <a href="https://drive.google.com/file/d/12YHL0ELYs_rpFXwDbheahid0PI5H6vlg/view?usp=share_link">video recording</a> is available that shows the integration of Ryan's and Tony's work in Week 3 and 4.
+                </p>
+            </div>
+            <div style={{display: "flex", alignItems: "top", justifyContent: "space-between", background: "white"}}>
+                <p className="Paragraph" style={{lineHeight: 1.5, width: "800px"}}> 
+                    The team had the monthly meeting on Thursday with the professors to present their existing work and discuss concerns and difficulties they had. After the meeting, the team had a discussion where individual tasks for the reading week were specified.
+                </p>
+            </div>
+            <br/><br/>
         </div>
     );
 }
