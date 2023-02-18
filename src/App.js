@@ -97,8 +97,8 @@ function App() {
             <p className="Paragraph" style={{lineHeight: 1.5}}> Given the instruction from the user and exact location of food items, the manipulation module generates the robot actions and commands that control the robot to pick and feed food into the user’s mouth.</p>
           </div>
         </div>
-        <div style={{ width: "100%", marginTop: "50px", display: "flex", alignItems: "top", justifyContent: "start", background: "white"}}>
-          <div style={{width:"1000px", padding: "50px"}}>
+        <div style={{ width: "100%", marginTop: "50px", display: "flex", alignItems: "top", justifyContent: "center", background: "white"}}>
+          <div style={{width:"1300px", padding: "50px"}}>
             <BuildBlog/>
           </div>
         </div>
