@@ -44,7 +44,7 @@ function BuildBlog() {
                     Tony worked on setting up the build blog section on top of the existing project website.
                 </p>
             </div>
-            <br/><br/>
+            <br/>
 
             <p className="Paragraph" style={styles.pWeek}>
                 Week 1
@@ -58,7 +58,7 @@ function BuildBlog() {
                 </div>
                 <ImageNote/>
             </div>
-            <br/><br/>
+            <br/>
             
             <p className="Paragraph" style={styles.pWeek}>
                 Week 2
@@ -74,21 +74,21 @@ function BuildBlog() {
                     The team submitted the symposium request form and the form for the Capstone Design brochure.
                 </p>
             </div>
-            <br/><br/>
+            <br/>
 
             <p className="Paragraph" style={styles.pWeek}>
                 Week 3
             </p>
             <div style={styles.divContent}>
                 <p className="Paragraph" style={styles.pDesc}> 
-                    Each team member worked on their assigned parts of the project. Allan worked on the integration of the tactile sensor and the end effector, Ryan worked on getting the webcam to work, and Tony worked on the <a href="https://drive.google.com/file/d/1y61BVuzUauYYK_0Zg8FN1IV4vMZ8RHKo/view?usp=share_link">pick-and-place simulation</a> (figure below). A <a href="https://drive.google.com/file/d/1c7fyapQ8j-cUwrtT7m1tpWWf2IxX1dBU/view?usp=share_link">recording</a> is available that shows the live image output by the tactile sensor.
+                    Each team member worked on their assigned parts of the project. Allan worked on the integration of the tactile sensor and the end effector, Ryan worked on getting the webcam to work, and Tony worked on the <a href="https://drive.google.com/file/d/1y61BVuzUauYYK_0Zg8FN1IV4vMZ8RHKo/view?usp=share_link">pick-and-place simulation</a> (figure below). A <a href="https://drive.google.com/file/d/1c7fyapQ8j-cUwrtT7m1tpWWf2IxX1dBU/view?usp=share_link">recording</a> is available that shows the live image output by the tactile sensor when a fork handle is pushed against its gel surface.
                 </p>
                 <div style={styles.divImages}>
                     <img src={simulation} alt="Gen3 Simulation" style={styles.img}/>
                 </div>
                 <ImageNote/>
             </div>
-            <br/><br/>
+            <br/>
 
             <p className="Paragraph" style={styles.pWeek}>
                 Week 4
@@ -106,7 +106,7 @@ function BuildBlog() {
                     The team had the monthly meeting on Thursday with the professors to present their existing work and discuss concerns and difficulties they had. After the meeting, the team had a discussion where individual tasks for the reading week were specified.
                 </p>
             </div>
-            <br/><br/>
+            <br/>
         </div>
     );
 }

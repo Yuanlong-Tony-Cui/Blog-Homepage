@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/Blog-Homepage/static/css/main.5ae6991d.chunk.css",
-    "main.js": "/Blog-Homepage/static/js/main.28ac7574.chunk.js",
-    "main.js.map": "/Blog-Homepage/static/js/main.28ac7574.chunk.js.map",
+    "main.js": "/Blog-Homepage/static/js/main.1781c07a.chunk.js",
+    "main.js.map": "/Blog-Homepage/static/js/main.1781c07a.chunk.js.map",
     "runtime-main.js": "/Blog-Homepage/static/js/runtime-main.9acad823.js",
     "runtime-main.js.map": "/Blog-Homepage/static/js/runtime-main.9acad823.js.map",
-    "static/js/2.f2a5babc.chunk.js": "/Blog-Homepage/static/js/2.f2a5babc.chunk.js",
-    "static/js/2.f2a5babc.chunk.js.map": "/Blog-Homepage/static/js/2.f2a5babc.chunk.js.map",
+    "static/js/2.ca9e9f27.chunk.js": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js",
+    "static/js/2.ca9e9f27.chunk.js.map": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js.map",
     "index.html": "/Blog-Homepage/index.html",
-    "precache-manifest.b5d85ed259a03e9f3c0a4d954149f80a.js": "/Blog-Homepage/precache-manifest.b5d85ed259a03e9f3c0a4d954149f80a.js",
+    "precache-manifest.7baa9c91edf16df341f47118644ea77d.js": "/Blog-Homepage/precache-manifest.7baa9c91edf16df341f47118644ea77d.js",
     "service-worker.js": "/Blog-Homepage/service-worker.js",
     "static/css/main.5ae6991d.chunk.css.map": "/Blog-Homepage/static/css/main.5ae6991d.chunk.css.map",
-    "static/js/2.f2a5babc.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.f2a5babc.chunk.js.LICENSE.txt",
+    "static/js/2.ca9e9f27.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js.LICENSE.txt",
+    "static/media/FYDP-website-v2.0.0.png": "/Blog-Homepage/static/media/FYDP-website-v2.0.0.9c039e60.png",
     "static/media/allan.jfif": "/Blog-Homepage/static/media/allan.7b18ebb2.jfif",
     "static/media/food.png": "/Blog-Homepage/static/media/food.88e4ec52.png",
+    "static/media/gelsight_mount.PNG": "/Blog-Homepage/static/media/gelsight_mount.84ad4b02.PNG",
     "static/media/gen3-robot.webp": "/Blog-Homepage/static/media/gen3-robot.fe199288.webp",
+    "static/media/gen3_simulation.png": "/Blog-Homepage/static/media/gen3_simulation.1c8100f3.png",
+    "static/media/pick_and_place_webcam.png": "/Blog-Homepage/static/media/pick_and_place_webcam.39e83c83.png",
     "static/media/ryan.jfif": "/Blog-Homepage/static/media/ryan.ec78bca4.jfif",
     "static/media/system-setup.png": "/Blog-Homepage/static/media/system-setup.3edd80f8.png",
     "static/media/technical-overview.png": "/Blog-Homepage/static/media/technical-overview.6d4fecfa.png",
@@ -22,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9acad823.js",
-    "static/js/2.f2a5babc.chunk.js",
+    "static/js/2.ca9e9f27.chunk.js",
     "static/css/main.5ae6991d.chunk.css",
-    "static/js/main.28ac7574.chunk.js"
+    "static/js/main.1781c07a.chunk.js"
   ]
 }
