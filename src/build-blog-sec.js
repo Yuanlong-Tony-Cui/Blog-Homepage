@@ -4,6 +4,10 @@ import simulation from './assets/gen3_simulation.png';
 import gelsightMount from './assets/gelsight_mount.PNG';
 import armMotion from './assets/pick_and_place_webcam.png';
 import updatedFydpSite from './assets/FYDP-website-v2.0.0.png';
+import gripperDirControl from './assets/gripper_orientation_control.png';
+import fullSystemSetup from './assets/setup_w_gelsight_fork_clay.png';
+import vectorField from './assets/gelsight_w_vector_field.png';
+import faceLandmark from './assets/face_landmark.png';
 
 function ImageNote() {
     return (
@@ -107,6 +111,34 @@ function BuildBlog() {
                 </p>
             </div>
             <br/>
+
+            <p className="Paragraph" style={styles.pWeek}>
+                Week 5
+            </p>
+            <div style={styles.divContent}>
+                <p className="Paragraph" style={styles.pDesc}> 
+                    The team worked on more accurate control of the Gen 3 arm, such as motion planning with shortest paths, orientation control of the end effector, and more detailed motions for fetching and feeding (1st figure). The full simulated demo is included in <a href="https://drive.google.com/file/d/1Y5huULVDFVL0ek-O5C05XG5LU7AEtNsy/view?usp=share_link"> this video </a>. When running the tests on Gen 3, the team set up the system using the tactile sensor, the fork, and the clay (to replace actual food) to make it closer to the real use scenarios (2nd figure).
+                </p>
+                <div style={styles.divImages}>
+                    <img src={gripperDirControl} alt="Controlling gripper orientation" style={styles.img}/>
+                    <img src={fullSystemSetup} alt="Complete setup" style={styles.img}/>
+                </div>
+                <ImageNote/>
+            </div>
+
+            <p className="Paragraph" style={styles.pWeek}>
+                Week 6
+            </p>
+            <div style={styles.divContent}>
+                <p className="Paragraph" style={styles.pDesc}> 
+                    In Week 6, the team reviewed the parts that each team member worked on in the past weeks and integrated them for the March meeting with the professors. On March 9th, the demo shown to the professor include <a href="https://drive.google.com/file/d/1-sILVB_nxAXOxGFg8P5dX9z1LehCgYd4/view?usp=share_link"> face landmark with depths </a> (detects the distance to the user's mounth), <a href="https://drive.google.com/file/d/1onAL_-QPMez4BVC_5m3o29S1MYlplRU5/view?usp=share_link"> vector field for tactile input </a>, and high-accuracy picking and feeding. The following two figures show what the developers see when running the feeder program, and a complete <a href="https://drive.google.com/file/d/1HNOY0b7sYRrvn3bCk8yXV0s2cvJ4AUup/view?usp=share_link"> demo video </a> is also available.
+                </p>
+                <div style={styles.divImages}>
+                    <img src={vectorField} alt="Parsed tactile data" style={styles.img}/>
+                    <img src={faceLandmark} alt="Face landmark" style={styles.img}/>
+                </div>
+                <ImageNote/>
+            </div>
         </div>
     );
 }
