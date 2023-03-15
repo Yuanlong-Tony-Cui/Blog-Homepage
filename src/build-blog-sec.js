@@ -37,8 +37,8 @@ function BuildBlog() {
     return (
         <div>
             {/* Blog entries */}
-            <p className="Heading" style={{textAlign: "center"}}>
-                Build Blog
+            <p className="Heading" style={{fontSize: "30px", textAlign: "center"}}>
+                — Build Blog —
             </p>
             <WeekSecBreak/>
 

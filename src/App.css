@@ -75,8 +75,9 @@
 }
 
 .Title {
-  font-size: 100%;
-  font-family: fantasy;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 
 /* .Title:hover {
@@ -87,21 +88,21 @@
 
 .Subtitle {
   font-size: 20px;
-  font-family: system-ui, Georgia;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   letter-spacing: 1px;
 }
 
 .Heading {
   font-size: 20px;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   letter-spacing: 1px;
   text-align: left;
 }
 
 .Paragraph {
   font-size: 18px;
-  font-family: system-ui, Georgia;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
   text-align: left;
 }
 

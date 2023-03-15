@@ -14,28 +14,28 @@ function App() {
     <div className="App">
       <div className="App-container">
         <div className="Fixed-header">
-          <p className="Title">
-            TRON Robotic Feeder
-          </p>
-          <p className="Subtitle">
-            Ready to help you eat at any moment.
-          </p>
+          <h1 className="Title">
+            RoboFeeder
+          </h1>
+          <h2 className="Subtitle" style={{fontWeight: "normal"}}>
+            Ready to serve your next meal at any moment.
+          </h2>
         </div>
-        <div style={{ height: "600px", width: "100%", marginTop: "200px", display: "flex", alignItems: "end", justifyContent: "space-around" }}>
+        <div style={{height: "600px", width: "100%", marginTop: "200px", display: "flex", alignItems: "end", justifyContent: "space-around"}}>
           <div style={{width:"700px", display: "flex", alignItems: "end", justifyContent: "space-around"}}>
             <img style={{height: "100px"}} src={food} />
             <img style={{height: "500px"}} src={photo_gen3} />
           </div>
           <div style={{width:"400px", background: "white", padding: "50px", marginBottom: "30px"}}>
             <p className="Heading">Introducing</p>
-            <p className="Heading">the TRON Robotic Feeder</p>
+            <p className="Heading">the RoboFeeder</p>
             <br/>
-            <p className="Paragraph" style={{lineHeight: 1.5}}> The robotic feeder is a system designed to help people with disabilities to have meals more easily without moving their arms or upper body. </p>
+            <p className="Paragraph" style={{lineHeight: 1.5}}> The RoboFeeder is a system designed to help people with disabilities to have meals more easily without moving their arms or upper body. </p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> This system primarily comprises a robotic arm with a built-in gripper and an RGBD camera. Knowing what food the user wants through linguistic inputs, the system will then search for the target food on the table using computer vision, use a fork to skewer it, locate and then deliver the food to the user’s mouth. </p>
           </div>
         </div>
-        <div style={{ height: "650px", width: "100%", background: "white"}}>
-          <p className="Title">
+        <div style={{height: "650px", width: "100%", background: "white", padding: "30px 0px"}}>
+          <p className="Heading" style={{textAlign: "center", fontSize: "30px"}}>
           — Meet Our Team —
           </p>
           <div style={{ height: "300px", width: "100%", display: "flex", alignItems: "center", justifyContent: "space-around"}}>
@@ -73,7 +73,7 @@ function App() {
           <div style={{width:"500px", background: "white", padding: "50px", marginBottom: "30px"}}>
             <p className="Heading">System Setup</p>
             <br/>
-            <p className="Paragraph" style={{lineHeight: 1.5}}> The robotic feeder will be fixed on one side of the table and the user will be sitting on the other side. In order for the robot to successfully deliver food to the user’s mouth, the robotic arm is required to be mounted 0.6m to 0.8m away from where the user sits. The food can be placed anywhere between the user and the robot. </p>
+            <p className="Paragraph" style={{lineHeight: 1.5}}> The RoboFeeder will be fixed on one side of the table and the user will be sitting on the other side. In order for the robot to successfully deliver food to the user’s mouth, the robotic arm is required to be mounted 0.6m to 0.8m away from where the user sits. The food can be placed anywhere between the user and the robot. </p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> During each cycle of the operations, the robot will: </p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> 1) Identify through the camera the food that the user signals it to fetch, </p>
             <p className="Paragraph" style={{lineHeight: 1.5}}> 2) Use the end effector (mounted at the tip of the robot arm) that holds a fork to skewer the target food item, </p>
