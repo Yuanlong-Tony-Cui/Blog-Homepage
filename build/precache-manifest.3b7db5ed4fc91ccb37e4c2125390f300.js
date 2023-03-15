@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c0485cee4767ed79b81269244a576cb",
+    "revision": "41dd29abee7b17052886f05dfc4f76c2",
     "url": "/Blog-Homepage/index.html"
   },
   {
-    "revision": "d13fc862077a95c3a0f2",
+    "revision": "a6b2af1ece3222a69cb6",
     "url": "/Blog-Homepage/static/css/main.5ae6991d.chunk.css"
   },
   {
-    "revision": "11d18512a40dc8ee90b7",
-    "url": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js"
+    "revision": "898e7cc52525afc649f0",
+    "url": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js.LICENSE.txt"
+    "url": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d13fc862077a95c3a0f2",
-    "url": "/Blog-Homepage/static/js/main.ea57bc00.chunk.js"
+    "revision": "a6b2af1ece3222a69cb6",
+    "url": "/Blog-Homepage/static/js/main.bd31e86e.chunk.js"
   },
   {
     "revision": "391daebcf2ad2453550c",
@@ -32,12 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blog-Homepage/static/media/allan.7b18ebb2.jfif"
   },
   {
+    "revision": "7000371c6661f5c8c3c8c2841a397438",
+    "url": "/Blog-Homepage/static/media/face_landmark.7000371c.png"
+  },
+  {
     "revision": "88e4ec521b2a569c392fa87c366d836e",
     "url": "/Blog-Homepage/static/media/food.88e4ec52.png"
   },
   {
     "revision": "84ad4b02016d2727126ecf0e825c6d19",
     "url": "/Blog-Homepage/static/media/gelsight_mount.84ad4b02.PNG"
+  },
+  {
+    "revision": "1dffb68f17b7f375b4e1fee5d7a881fb",
+    "url": "/Blog-Homepage/static/media/gelsight_w_vector_field.1dffb68f.png"
   },
   {
     "revision": "fe199288649d4d2b69561d14d608868a",
@@ -48,12 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blog-Homepage/static/media/gen3_simulation.1c8100f3.png"
   },
   {
+    "revision": "448652a1bec60e27bcd0022f292aaa9a",
+    "url": "/Blog-Homepage/static/media/gripper_orientation_control.448652a1.png"
+  },
+  {
     "revision": "39e83c833413c76cd0f4a40a9412fcec",
     "url": "/Blog-Homepage/static/media/pick_and_place_webcam.39e83c83.png"
   },
   {
     "revision": "ec78bca476c8417235dc222acf87cc3b",
     "url": "/Blog-Homepage/static/media/ryan.ec78bca4.jfif"
+  },
+  {
+    "revision": "1a2a3b6a8860e8710564afae58bcb3e9",
+    "url": "/Blog-Homepage/static/media/setup_w_gelsight_fork_clay.1a2a3b6a.png"
   },
   {
     "revision": "3edd80f83a5c0c0bcefdb6cb50b19d92",

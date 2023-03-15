@@ -1,33 +1,37 @@
 {
   "files": {
     "main.css": "/Blog-Homepage/static/css/main.5ae6991d.chunk.css",
-    "main.js": "/Blog-Homepage/static/js/main.ea57bc00.chunk.js",
-    "main.js.map": "/Blog-Homepage/static/js/main.ea57bc00.chunk.js.map",
+    "main.js": "/Blog-Homepage/static/js/main.bd31e86e.chunk.js",
+    "main.js.map": "/Blog-Homepage/static/js/main.bd31e86e.chunk.js.map",
     "runtime-main.js": "/Blog-Homepage/static/js/runtime-main.9acad823.js",
     "runtime-main.js.map": "/Blog-Homepage/static/js/runtime-main.9acad823.js.map",
-    "static/js/2.ca9e9f27.chunk.js": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js",
-    "static/js/2.ca9e9f27.chunk.js.map": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js.map",
+    "static/js/2.bc827f9e.chunk.js": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js",
+    "static/js/2.bc827f9e.chunk.js.map": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.map",
     "index.html": "/Blog-Homepage/index.html",
-    "precache-manifest.c0cb40fd3dcbe4182f908780a088eacb.js": "/Blog-Homepage/precache-manifest.c0cb40fd3dcbe4182f908780a088eacb.js",
+    "precache-manifest.3b7db5ed4fc91ccb37e4c2125390f300.js": "/Blog-Homepage/precache-manifest.3b7db5ed4fc91ccb37e4c2125390f300.js",
     "service-worker.js": "/Blog-Homepage/service-worker.js",
     "static/css/main.5ae6991d.chunk.css.map": "/Blog-Homepage/static/css/main.5ae6991d.chunk.css.map",
-    "static/js/2.ca9e9f27.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.ca9e9f27.chunk.js.LICENSE.txt",
+    "static/js/2.bc827f9e.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.LICENSE.txt",
     "static/media/FYDP-website-v2.0.0.png": "/Blog-Homepage/static/media/FYDP-website-v2.0.0.9c039e60.png",
     "static/media/allan.jfif": "/Blog-Homepage/static/media/allan.7b18ebb2.jfif",
+    "static/media/face_landmark.png": "/Blog-Homepage/static/media/face_landmark.7000371c.png",
     "static/media/food.png": "/Blog-Homepage/static/media/food.88e4ec52.png",
     "static/media/gelsight_mount.PNG": "/Blog-Homepage/static/media/gelsight_mount.84ad4b02.PNG",
+    "static/media/gelsight_w_vector_field.png": "/Blog-Homepage/static/media/gelsight_w_vector_field.1dffb68f.png",
     "static/media/gen3-robot.webp": "/Blog-Homepage/static/media/gen3-robot.fe199288.webp",
     "static/media/gen3_simulation.png": "/Blog-Homepage/static/media/gen3_simulation.1c8100f3.png",
+    "static/media/gripper_orientation_control.png": "/Blog-Homepage/static/media/gripper_orientation_control.448652a1.png",
     "static/media/pick_and_place_webcam.png": "/Blog-Homepage/static/media/pick_and_place_webcam.39e83c83.png",
     "static/media/ryan.jfif": "/Blog-Homepage/static/media/ryan.ec78bca4.jfif",
+    "static/media/setup_w_gelsight_fork_clay.png": "/Blog-Homepage/static/media/setup_w_gelsight_fork_clay.1a2a3b6a.png",
     "static/media/system-setup.png": "/Blog-Homepage/static/media/system-setup.3edd80f8.png",
     "static/media/technical-overview.png": "/Blog-Homepage/static/media/technical-overview.6d4fecfa.png",
     "static/media/tony.jfif": "/Blog-Homepage/static/media/tony.a8f139d2.jfif"
   },
   "entrypoints": [
     "static/js/runtime-main.9acad823.js",
-    "static/js/2.ca9e9f27.chunk.js",
+    "static/js/2.bc827f9e.chunk.js",
     "static/css/main.5ae6991d.chunk.css",
-    "static/js/main.ea57bc00.chunk.js"
+    "static/js/main.bd31e86e.chunk.js"
   ]
 }
