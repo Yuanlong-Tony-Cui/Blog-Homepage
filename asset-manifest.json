@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Blog-Homepage/static/css/main.e6f6ba22.chunk.css",
-    "main.js": "/Blog-Homepage/static/js/main.31a45d3c.chunk.js",
-    "main.js.map": "/Blog-Homepage/static/js/main.31a45d3c.chunk.js.map",
+    "main.css": "/Blog-Homepage/static/css/main.aae55470.chunk.css",
+    "main.js": "/Blog-Homepage/static/js/main.c397a417.chunk.js",
+    "main.js.map": "/Blog-Homepage/static/js/main.c397a417.chunk.js.map",
     "runtime-main.js": "/Blog-Homepage/static/js/runtime-main.9acad823.js",
     "runtime-main.js.map": "/Blog-Homepage/static/js/runtime-main.9acad823.js.map",
-    "static/js/2.bc827f9e.chunk.js": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js",
-    "static/js/2.bc827f9e.chunk.js.map": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.map",
+    "static/js/2.29a3662a.chunk.js": "/Blog-Homepage/static/js/2.29a3662a.chunk.js",
+    "static/js/2.29a3662a.chunk.js.map": "/Blog-Homepage/static/js/2.29a3662a.chunk.js.map",
     "index.html": "/Blog-Homepage/index.html",
-    "precache-manifest.702e2d1a7c4d318cbfa9ae4cc26d2fad.js": "/Blog-Homepage/precache-manifest.702e2d1a7c4d318cbfa9ae4cc26d2fad.js",
+    "precache-manifest.56958c199ccdba601e6be93389997dd2.js": "/Blog-Homepage/precache-manifest.56958c199ccdba601e6be93389997dd2.js",
     "service-worker.js": "/Blog-Homepage/service-worker.js",
-    "static/css/main.e6f6ba22.chunk.css.map": "/Blog-Homepage/static/css/main.e6f6ba22.chunk.css.map",
-    "static/js/2.bc827f9e.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.LICENSE.txt",
+    "static/css/main.aae55470.chunk.css.map": "/Blog-Homepage/static/css/main.aae55470.chunk.css.map",
+    "static/js/2.29a3662a.chunk.js.LICENSE.txt": "/Blog-Homepage/static/js/2.29a3662a.chunk.js.LICENSE.txt",
+    "static/media/Aligning_Feeding_Demo-2.png": "/Blog-Homepage/static/media/Aligning_Feeding_Demo-2.1b0f6c65.png",
+    "static/media/Aligning_Feeding_Demo.png": "/Blog-Homepage/static/media/Aligning_Feeding_Demo.b11f6478.png",
+    "static/media/FYDP-Poster.png": "/Blog-Homepage/static/media/FYDP-Poster.78fd0146.png",
     "static/media/FYDP-website-v2.0.0.png": "/Blog-Homepage/static/media/FYDP-website-v2.0.0.9c039e60.png",
     "static/media/allan.jfif": "/Blog-Homepage/static/media/allan.7b18ebb2.jfif",
     "static/media/face_landmark.png": "/Blog-Homepage/static/media/face_landmark.7000371c.png",
@@ -30,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9acad823.js",
-    "static/js/2.bc827f9e.chunk.js",
-    "static/css/main.e6f6ba22.chunk.css",
-    "static/js/main.31a45d3c.chunk.js"
+    "static/js/2.29a3662a.chunk.js",
+    "static/css/main.aae55470.chunk.css",
+    "static/js/main.c397a417.chunk.js"
   ]
 }
