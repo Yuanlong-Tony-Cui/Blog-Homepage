@@ -67,10 +67,8 @@ function App() {
             </div>
           </div>
         </div>
-        {/* ISSUE: The blocks of text description overflow on low-res screens. */}
-        {/* TODO: Turn down the screen resolution and ... */}
         <div style={{ height: "800px", width: "100%", marginTop: "50px", display: "flex", alignItems: "center", justifyContent: "space-around", background: "white"}}>
-          <div style={{width:"500px", background: "white", padding: "50px", marginBottom: "30px"}}>
+          <div style={{width:"700px", background: "white", padding: "50px", marginBottom: "30px"}}>
             <p className="Heading">System Setup</p>
             <br/>
             <p className="Paragraph" style={{lineHeight: 1.5}}> The RoboFeeder will be fixed on one side of the table and the user will be sitting on the other side. In order for the robot to successfully deliver food to the user’s mouth, the robotic arm is required to be mounted 0.6m to 0.8m away from where the user sits. The food can be placed anywhere between the user and the robot. </p>
@@ -88,7 +86,7 @@ function App() {
           <div style={{width:"800px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-around", background: "white"}}>
             <img style={{width: "80%"}} src={tech_overview} />
           </div>
-          <div style={{width:"400px", background: "white", padding: "50px", marginBottom: "30px"}}>
+          <div style={{width:"500px", background: "white", padding: "50px", marginBottom: "30px"}}>
             <p className="Heading">Technical Implementation</p>
             <br/>
             <p className="Paragraph" style={{lineHeight: 1.5}}> The overall robot feeder system contains two main modules: the perception module and manipulation module. </p>

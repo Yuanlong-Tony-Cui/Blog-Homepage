@@ -8,6 +8,9 @@ import gripperDirControl from './assets/gripper_orientation_control.png';
 import fullSystemSetup from './assets/setup_w_gelsight_fork_clay.png';
 import vectorField from './assets/gelsight_w_vector_field.png';
 import faceLandmark from './assets/face_landmark.png';
+import fydpPoster from './assets/FYDP-Poster.png';
+import visualAligning1 from './assets/Aligning_Feeding_Demo-2.png';
+import visualAligning2 from './assets/Aligning_Feeding_Demo.png';
 
 function ImageNote() {
     return (
@@ -156,6 +159,29 @@ function BuildBlog() {
                     <div style={styles.divImages}>
                         <img src={vectorField} alt="Parsed tactile data" style={styles.img}/>
                         <img src={faceLandmark} alt="Face landmark" style={styles.img}/>
+                    </div>
+                    <ImageNote/>
+                </div>
+            </div>
+
+            <div style={styles.divWeek}>
+            <p className="Paragraph" style={styles.pWeek}>
+                Week 7
+            </p>
+                <div style={styles.divContent}>
+                    <p className="Paragraph" style={styles.pDesc}> 
+                        Week 7 was the last week of development before the symposium. In this week, the team made a poster (figure below) and a <a href="https://drive.google.com/file/d/1iXxGqGtnwmLQWW5vJnnh0-NKEqELkaEa/view?usp=share_link">sales pitch video</a> for the RoboFeeder project.
+                    </p>
+                    <div style={styles.divImages}>
+                        <img src={fydpPoster} alt="FYDP Poster" style={styles.img}/>
+                    </div>
+                    <ImageNote/>
+                    <p className="Paragraph" style={styles.pDesc}>
+                        The biggest progress made in terms of the development was the speed control and visual aligning features, which were used to precisely align the central axis of the end effector with the user's mouth. The first figrue shows the user's mouth being at a spot that is slightly to the right of the end effector, and the second figure shows how the user is able to received the food with the complete aligning and feeding operations.
+                    </p>
+                    <div style={styles.divImages}>
+                        <img src={visualAligning1} alt="Visual Aligning 1" style={styles.img}/>
+                        <img src={visualAligning2} alt="Visual Aligning 2" style={styles.img}/>
                     </div>
                     <ImageNote/>
                 </div>
