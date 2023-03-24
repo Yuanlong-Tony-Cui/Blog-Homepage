@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "803583e5468d9b5d379d1b977db3bbc5",
+    "revision": "9cfd3952595fbab6d91c098dfb715df1",
     "url": "/Blog-Homepage/index.html"
   },
   {
-    "revision": "6c82c5abcb23fb1da0ed",
-    "url": "/Blog-Homepage/static/css/main.e6f6ba22.chunk.css"
+    "revision": "0609818989ba58cff016",
+    "url": "/Blog-Homepage/static/css/main.aae55470.chunk.css"
   },
   {
-    "revision": "898e7cc52525afc649f0",
-    "url": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js"
+    "revision": "6ee04d21f13ba3ae32f7",
+    "url": "/Blog-Homepage/static/js/2.29a3662a.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Blog-Homepage/static/js/2.bc827f9e.chunk.js.LICENSE.txt"
+    "url": "/Blog-Homepage/static/js/2.29a3662a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c82c5abcb23fb1da0ed",
-    "url": "/Blog-Homepage/static/js/main.31a45d3c.chunk.js"
+    "revision": "0609818989ba58cff016",
+    "url": "/Blog-Homepage/static/js/main.c397a417.chunk.js"
   },
   {
     "revision": "391daebcf2ad2453550c",
     "url": "/Blog-Homepage/static/js/runtime-main.9acad823.js"
+  },
+  {
+    "revision": "1b0f6c6529e27861fcab4417e39c4f27",
+    "url": "/Blog-Homepage/static/media/Aligning_Feeding_Demo-2.1b0f6c65.png"
+  },
+  {
+    "revision": "b11f6478687248a1e542fcd1e4c34a46",
+    "url": "/Blog-Homepage/static/media/Aligning_Feeding_Demo.b11f6478.png"
+  },
+  {
+    "revision": "78fd01463257522da4cde809b32140de",
+    "url": "/Blog-Homepage/static/media/FYDP-Poster.78fd0146.png"
   },
   {
     "revision": "9c039e60975e3331f192418e9030793c",

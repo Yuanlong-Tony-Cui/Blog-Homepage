@@ -34,7 +34,10 @@ function App() {
             <p className="Paragraph" style={{lineHeight: 1.5}}> This system primarily comprises a robotic arm with a built-in gripper and an RGBD camera. Knowing what food the user wants through linguistic inputs, the system will then search for the target food on the table using computer vision, use a fork to skewer it, locate and then deliver the food to the user’s mouth. </p>
           </div>
         </div>
-        <div style={{height: "650px", width: "100%", background: "white", padding: "30px 0px"}}>
+        <div style={{height: "315px", width: "100%", background: "white", padding: "50px 0px"}}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JuxNPx7VXp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div style={{height: "650px", width: "100%", background: "white", padding: "30px 0px", marginTop: "50px"}}>
           <p className="Heading" style={{textAlign: "center", fontSize: "30px"}}>
           — Meet Our Team —
           </p>
