@@ -11,6 +11,7 @@ import faceLandmark from './assets/face_landmark.png';
 import fydpPoster from './assets/FYDP-Poster.png';
 import visualAligning1 from './assets/Aligning_Feeding_Demo-2.png';
 import visualAligning2 from './assets/Aligning_Feeding_Demo.png';
+import symposiumPhoto from './assets/symposium_group_photo.jpg';
 
 function ImageNote() {
     return (
@@ -182,6 +183,28 @@ function BuildBlog() {
                     <div style={styles.divImages}>
                         <img src={visualAligning1} alt="Visual Aligning 1" style={styles.img}/>
                         <img src={visualAligning2} alt="Visual Aligning 2" style={styles.img}/>
+                    </div>
+                    <ImageNote/>
+                </div>
+            </div>
+
+            <div style={styles.divWeek}>
+            <p className="Paragraph" style={styles.pWeek}>
+                Week 8
+            </p>
+                <div style={styles.divContent}>
+                    <p className="Paragraph" style={styles.pDesc}> 
+                        Week 8 is the week of the symposium. Having completed building the RoboFeeder in the previous week, the team conducted more testing and fine tuning of the feeding process from Monday to Thursday, including but not limited to adding more fetching locations, adjusting the fetching and feeding speeds, and collecting testing results. In preparation for the symposium, the team also had a few meetings to discuss how they should present their project to the audience, such as making a demo video (below) that will be looped at the booth when the RoboFeeder is not running.
+                    </p>
+                    <div style={styles.divImages}>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0rJSy_mPW8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <br/>
+                    <p className="Paragraph" style={styles.pDesc}>
+                        On the symposium day, the team welcomed and introduced the Robofeeder to professors, lower year MME students, and external guests. At the same time, the team also collected feedback from their audience. By asking a number of audience for their suggestions and opinions, the team obtained a better understanding of how the project could be improved and commercialized if they were to continue building it in the future.
+                    </p>
+                    <div style={styles.divImages}>
+                        <img src={symposiumPhoto} alt="Symposium Group Photo" style={styles.img}/>
                     </div>
                     <ImageNote/>
                 </div>
